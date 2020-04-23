@@ -78,8 +78,8 @@ class AppClient:
         self._appKey = APP_KEY  # 微博应用app key
         self._appSecret = APP_SECRET  # 微博应用app secret
         self._callbackUrl = REDIRECT_URI  # 回调地址
-        self._account = 'w1570631036@sina.com'  # 微博账号
-        self._password = 'wenzhihuai2017'  # 微博密码
+        self._account = ''  # 微博账号
+        self._password = ''  # 微博密码
         self.AppCli = client
         self._author_url = self.AppCli.authorize_url
         self.getAuthorization()
